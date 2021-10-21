@@ -1,0 +1,82 @@
+body{
+     background-image: linear-gradient(to top, 
+    #107cca, 
+    #1660b4, 
+    #8c7000, 
+    #b85b07, 
+    #d9383d, 
+    #d0383b, 
+    #c8383a, 
+    #bf3838, 
+    #914e15, 
+    #655416, 
+    #a03a0a, 
+    #051b1f);        
+    background-size: cover;
+}
+.image-cat{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+.align-cats-details{
+    background-color: #688882;
+    display: flex;
+    gap: 1rem;
+    border-radius: 10rem;
+    transition: none;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.search-botton-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+    border: none;
+}
+.align-cats-details:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 167px 0px rgba(0,0,0,0.75);
+}
+.cat-tags{
+   font-family: 'Philosopher', sans-serif;
+   text-transform: capitalize;
+   font-size: 3rem;
+   height: 2rem;
+   width: 3rem;
+   padding: 3rem;
+}
+
+.cat-tags:hover{
+    transform: scale(1.1);
+    font-family: 'GFS Didot', serif;
+    color:rgb(52, 5, 66);
+    font-weight: bold;
+}
+#search{
+    width: 60rem;
+    height: 30px;
+    margin-left: 90px;
+    border: none;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color:rgb(147, 150, 14);
+    font-weight: bold;
+    margin-top: 10rem;
+    letter-spacing: 0.3rem;
+}
+.combine-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.search-bottom{
+    size: 10rem;
+}
+
+
